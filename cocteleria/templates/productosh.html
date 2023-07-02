@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block titulo %} productos {% endblock  %}
+
+{% block contenido %}
+
+
+<main class="mainpro">
+    {% for i in productos %}
+    <section class="product">
+        {% if i.imagen%}
+        <img src="{{ i.imagen.url }}"  height="100px" >
+        {% endif %}
+        <h2>{{ i.nombrep }}</h2>
+        <p>{{ i.descripcion }}</p>
+        <p class="precio">{{ i.costo }}</p>
+        <a href="{% url 'add' i.codigo %}" class="btn btn-outline-light">agregar al carrito</a>
+    </section>
+    {% endfor %}
+</main>
+{% endblock  %}

@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %} tiendas {% endblock  %}
+
+{% block contenido %}
+
+    <body class="bodytienda" onload="initMap()">
+
+        <section class="sectionti">
+            <h2>Encuentranos</h2>
+            <ul>
+                <li><a href="#tienda1">Tienda 1</a></li>
+                <li><a href="#tienda2">Tienda 2</a></li>
+                <li><a href="#tienda3">Tienda 3</a></li>
+            </ul>
+            <div id="Mapa"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.858661822965!2d-75.1970120037748!3d4.437404345795152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c59194ad01a3%3A0xe14722a6a9b416f2!2sLalycocktails%20granizados!5e0!3m2!1ses-419!2sco!4v1683755207193!5m2!1ses-419!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="mapa"></div>
+            <article class="articlet" id="tienda1">
+                <h3>Tienda 1</h3>
+                <p>Descripción de la tienda 1.</p>
+                <address>
+                    Dirección de la tienda 1<br>
+                    Ciudad, Estado CP<br>
+                    Teléfono: (555) 555-5555
+                </address>
+            </article>
+            <article class="articlet" id="tienda2">
+                <h3>Tienda 2</h3>
+                <p>Descripción de la tienda 2.</p>
+                <address>
+                    Dirección de la tienda 2<br>
+                    Ciudad, Estado CP<br>
+                    Teléfono: (555) 555-5555
+                </address>
+            </article >
+            <article class="articlet" id="tienda3">
+                <h3>Tienda 3</h3>
+                <p>Descripción de la tienda 3.</p>
+                <address class="adret">
+                    Dirección de la tienda 3<br>
+                    Ciudad, Estado CP<br>
+                    Teléfono: (555) 555-5555
+                </address>
+            </article>
+        </section>
+
+
+{% endblock  %}
