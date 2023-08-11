@@ -195,16 +195,17 @@ footer {
   }
   
   .lifo {
+    color: #ffffff;
     margin-right: 20px;
   }
   
   .afo {
-    text-decoration: none;
+    text-decoration: none ;
     color: #ffffff;
   }
   
   .afo:hover {
-    color: #000;
+    color: #ffffff;
   }
   
   .pfo {
@@ -538,3 +539,176 @@ footer {
   .cart{
     overflow-y: hidden;
   }
+
+
+    /* nosotros */
+
+    bodyN {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("../img/Pared\ purpura.png");
+      
+    }
+
+    .NosotrosH h2 {
+      margin: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .NosotrosH h2 {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      transition: text-shadow 0.3s;
+    }
+
+    .NosotrosH h2:hover {
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .MisionH h3 {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      transition: text-shadow 0.3s;
+    }
+
+    .MisionH h3:hover {
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .MisionH P {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      transition: text-shadow 0.3s;
+    }
+
+    .MisionH p:hover {
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    }
+   
+    .MisionH {
+      background-color: #a8a1df2f;
+      text-align: center;
+      width: 100%;
+    }
+
+    /* Estilos adicionales para mejorar la apariencia */
+    .MisionH h3 {
+      margin-top: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      box-shadow: 5px 12px 20px rgba(99, 65, 145, 0.726); 
+    }
+
+    .MisionH p {
+      line-height: 1.5;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: x-large;
+    }
+
+    /* Estilos CSS */
+    .image-container {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      margin: 60px;
+      width: 300px; 
+      box-shadow: 5px 12px 20px rgba(99, 65, 145, 0.726);
+
+    }
+
+    .image-container img {
+      transition: transform 0.3s;
+      max-width: 100%; 
+      height: auto; 
+    }
+
+    .image-container:hover img {
+      transform: scale(1.1);
+    }
+
+    #whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: #6f00ff71;
+      border-radius: 60%;
+      text-align: center;
+      color: #ffffff;
+      font-size: 24px;
+      line-height: 60px;
+      cursor: pointer;
+      z-index: 9999;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.9); 
+    }
+
+    #whatsapp-button:hover {
+      background-color: #25D366; 
+    }
+
+    .custom-shape-divider-bottom-1686770473 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1686770473 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1686770473 .shape-fill {
+    fill: #8662cac2;
+}
+
+.image-figure {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .image-figure img {
+      width: 300px;
+      height: 350px;
+      box-shadow: 5px 12px 20px rgba(99, 65, 145, 0.726);
+      order: 2; 
+    }
+
+    .image-figure1 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .image-figure1 img {
+      width: 300px;
+      height: 350px;
+      box-shadow: 5px 12px 20px rgba(99, 65, 145, 0.726);
+      order: 1; 
+      max-width: 100%;
+      height: auto;
+    }
+
+    .image-figure1 p {
+      order: 2; 
+    }
+
+    .image-figure2 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .image-figure2 img {
+      width: 1200px;
+      height: 350px;
+      box-shadow: 5px 12px 20px rgba(99, 65, 145, 0.726);
+    }
+    

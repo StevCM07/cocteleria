@@ -72,6 +72,7 @@
     [dir="rtl"] .aligned ul,
     [dir="rtl"] form .aligned ul.errorlist {
         margin-right: 0;
+        color: violet;
     }
 
     [dir="rtl"] #changelist-filter {
