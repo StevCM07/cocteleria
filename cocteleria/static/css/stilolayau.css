@@ -8,7 +8,7 @@
     position: fixed;
     width: 100%;
     z-index: 999;
-    box-shadow: inset 0px -10px 5px -2px rgba(141, 1, 255, 0.377);
+    box-shadow: inset 0px -10px 5px -2px rgba(90, 1, 255, 0.377);
 }
 
 .secsionpri{
@@ -24,7 +24,7 @@ background-image: url("../img/Pared\ purpura.png");
 
 .sec1{
 align-items: center;
-height: 570px;
+height: 665px;
 width: 60%;
 position: relative; 
 overflow: hidden;
@@ -43,7 +43,7 @@ overflow: hidden;
 .svgwave{
   height: 100%;
   width: 215%;
-  filter: drop-shadow(0 0 20px #5b07eb);
+  filter: drop-shadow(0 0 20px #0b07ebaf);
 }
 
 
@@ -57,8 +57,8 @@ overflow: hidden;
 }
 
 .pathwave{
-  box-shadow: 0px -5px 5px #5b07eb;
-  fill:#1403608c; 
+  box-shadow: 0px -5px 5px #ff17ffe5;
+  fill:#da45d39d; 
   animation: wave linear 2s infinite;
   width: 100%;
 }
@@ -77,13 +77,18 @@ gap: 20px;
   width: 455px;
   height: 316px;
   transition: all 1s;
+  box-shadow:
+  inset 0 3em 3em rgb(0, 0, 0),
+        0.3em 0.3em 1em rgba(6, 160, 243, 0.72),
+        0.9em 0.9em 1em rgba(204, 6, 243, 0.72);
+        
 }
 
 
 .imgtras{
   filter: drop-shadow(0 0 20px rgba(39, 16, 244, 0.604));
-  width: 435px;
-  height: 379px;
+  width: 455px;
+  height: 319px;
 }
 
 .imgtras:hover{
@@ -96,8 +101,7 @@ gap: 20px;
  .pluma3:hover{
   border-radius:49% 51% 77% 23% / 30% 81% 19% 70% ;
   opacity: 1;
-  background-image: url("../img/Pared\ purpura.png");
-        
+  background: #d940ea2a;        
 }
 
 .waves1{
@@ -182,6 +186,33 @@ footer {
     justify-content: center;
   }
   
+  .ulfo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .lifo {
+    color: #ffffff;
+    margin-right: 20px;
+  }
+  
+  .afo {
+    text-decoration: none ;
+    color: #ffffff;
+  }
+  
+  .afo:hover {
+    color: #ffffff;
+  }
+  
+  .pfo {
+    text-align: center;
+    color:rgba(255, 255, 255, .8);
+    text-shadow:0 0 5px #F5F5F5, 0 0 15px #F5F5F5, 0 0 30px #F5F5F5 ;
+  }
 
 
 .custom-shape-divider-bottom-1684781386 {
@@ -206,24 +237,22 @@ footer {
     fill: #FFFFFF;
 }
   
-    /* producatos css */
-
-  .tituloproductos{
-    text-align: center;
-  }
+  /* producatos css */
 
   .product {
-  color:#000000;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color:#1403608c;
+  box-shadow: 0 0 20px #5b07eb;
 	margin: 20px;
 	padding: 20px;
-	background-color: #F5F5F5;
 	width: 300px;
 	text-align: center;
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
-.product p {
-  color: #000;
+
+.mainpro  {
+  background-image: url(../img/Pared\ purpura.png);
 }
 
 .imgpro{
@@ -234,43 +263,25 @@ footer {
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+  border-radius: 5px;
+  color: #ffffff;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:#1403608c;
+  box-shadow: 0 0 20px #5b07eb;
   }
   
   .container p {
-    margin: 0;
-  }
-  
-  .ulfo {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .lifo {
-    margin-right: 20px;
-  }
-  
-  .afo {
-    text-decoration: none;
+    border-radius: 5px;
     color: #ffffff;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#1403608c;
+    box-shadow: 0 0 20px #5b07eb;
   }
   
-  .afo:hover {
-    color: #000;
-  }
-
-  .pfo {
-    text-align: center;
-    color:rgba(255, 255, 255, .8);
-    text-shadow:0 0 5px #F5F5F5, 0 0 15px #F5F5F5, 0 0 30px #F5F5F5 ;
-  }
   main {
     padding: 20px;
     display: flex;
@@ -298,7 +309,6 @@ footer {
     justify-content: center;
     position: relative;
     height:860px;
-    background-image: radial-gradient(circle at 95.41% -4.11%, #ff69c3 0, #ff5dce 10%, #ff52d7 20%, #f648e1 30%, #da40ea 40%, #b53cf2 50%, #853dfa 60%, #3242ff 70%, #0048ff 80%, #004dff 90%, #0051ff 100%);
   }
 
   .sec2{
@@ -323,28 +333,6 @@ footer {
     transform: rotate(180deg);
 }
 
-.pluma2{
-  border-radius: 30% 70% 17% 83% / 69% 13% 87% 31% ;
-  background-size:cover;
-  background-image: url("../img/id2.png");
-  height: 218px;
-  width: 195px;
-  transition: all 1s;
-  padding-left: 3px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.pluma3{
-  border-radius: 62% 38% 70% 30% / 92% 74% 26% 8% ;
-  background-size:cover;
-  background-image: url("../img/ide3.png");
-  width: 235px;
-  height: 179px;
-  transition: all 1s;
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .custom-shape-divider-bottom-1684642725 svg {
     position: relative;
@@ -461,9 +449,267 @@ footer {
     color: #000000;
   }
   
-  
-  /* login css*/
 
-    
-   
+  /*login-  registro */
+
+  .body_l, html {
+    height: 100%;
+  }
+
+  .body_l p, h2 {
+   color: #ffffff;
+  }
   
+  .body_l {
+    margin: 0;
+    padding: 0;
+    background-image:url("../img/Pared\ purpura.png") ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'lato', sans-serif;
+    }
+  
+  .form-box_l {
+    width: 300px;
+    padding: 40px;
+    margin: 30px;
+    background-color:#1403608c;
+    box-shadow: 0 0 20px #5b07eb;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .form-box_l a{
+  color: #F5F5F5;
+  text-decoration: none;
+  }
+    
+
+  .form-title_l {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .form-box_l input[type="text"],
+  .form-box_l input[type="password"],
+  .form-box_l button[type="submit"],
+  .form-box_l input[type="email"] {
+      border: 0;
+      background: none;
+      display: block;
+      margin: 20px auto;
+      padding: 14px 10px;
+      text-align: center;
+      border: 2px solid #6b05e0a9;
+      width: 200px;
+      outline: none;
+      color: white;
+      border-radius: 24px;
+      transition: 0.25s;
+  }
+  
+  .form-box_l input[type="text"]:focus,
+  .form-box_l input[type="password"]:focus {
+      width: 200px;
+      border-color: #ffffff;
+  }
+  
+  .form-box_l button[type="submit"] {
+      border: 0;
+      background: #6b05e0a9;
+      cursor: pointer;
+      border: 2px solid white;
+      text-decoration: none;
+
+  }
+  
+  .form-box_l button[type="submit"]:hover {
+      background: none;
+      text-decoration: none;
+  }
+
+  .cart{
+    overflow-y: hidden;
+  }
+
+
+    /* nosotros */
+
+    bodyN,.N {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("../img/Pared\ purpura.png");
+      color: white;
+      
+    }
+
+    .NosotrosH h2 {
+      margin: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .NosotrosH h2 {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      transition: text-shadow 0.3s;
+    }
+
+    .NosotrosH h2:hover {
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .MisionH h3 {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      transition: text-shadow 0.3s;
+    }
+
+    .MisionH h3:hover {
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .MisionH P {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      transition: text-shadow 0.3s;
+    }
+
+    .MisionH p:hover {
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+    }
+   
+    .MisionH {
+      background-color: #a8a1df2f;
+      text-align: center;
+      width: 100%;
+    }
+
+    /* Estilos adicionales para mejorar la apariencia */
+    .MisionH h3 {
+      margin-top: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      box-shadow: 5px 12px 20px rgba(99, 65, 145, 0.726); 
+    }
+
+    .MisionH p {
+      line-height: 1.5;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: x-large;
+    }
+
+    /* Estilos CSS */
+    .image-container {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      margin: 60px;
+      width: 300px; 
+      box-shadow: 5px 12px 20px rgba(99, 65, 145, 0.726);
+
+    }
+
+    .image-container img {
+      transition: transform 0.3s;
+      max-width: 100%; 
+      height: auto; 
+    }
+
+    .image-container:hover img {
+      transform: scale(1.1);
+    }
+
+    #whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: #6f00ff71;
+      border-radius: 60%;
+      text-align: center;
+      color: #ffffff;
+      font-size: 24px;
+      line-height: 60px;
+      cursor: pointer;
+      z-index: 9999;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.9); 
+    }
+
+    #whatsapp-button:hover {
+      background-color: #25D366; 
+    }
+
+    .custom-shape-divider-bottom-1686770473 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1686770473 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1686770473 .shape-fill {
+    fill: #8662cac2;
+}
+
+.image-figure {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .image-figure img {
+      width: 300px;
+      height: 350px;
+      box-shadow: 5px 12px 20px rgba(99, 65, 145, 0.726);
+      order: 2; 
+    }
+
+    .image-figure1 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .image-figure1 img {
+      width: 300px;
+      height: 350px;
+      box-shadow: 5px 12px 20px rgba(99, 65, 145, 0.726);
+      order: 1; 
+      max-width: 100%;
+      height: auto;
+    }
+
+    .image-figure1 p {
+      order: 2; 
+    }
+
+    .image-figure2 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .image-figure2 img {
+      width: 1200px;
+      height: 350px;
+      box-shadow: 5px 12px 20px rgba(99, 65, 145, 0.726);
+    }
+    
