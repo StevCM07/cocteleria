@@ -1,3 +1,41 @@
+.custom-bg{
+  background-image:url("../img/Pared\ purpura.png") ;
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-lt{
+  color: #FFFFFF;
+  font-family:cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+}
+
+.custom-title{
+  padding-top: 2em;
+  font-size: 2em;
+}
+
+.custom-txt{
+  padding-top: 3em;
+  font-size: 1em;
+}
+
+.custom-slogan{
+  padding-top: 2em;
+  font-size: 0.9em;
+}
+
+.custom-logout{
+  height: 100vh;
+}
+
+.errorlist{
+  color: #FFFFFF;
+  padding: 0%;
+}
+
+
+
 .imglogo{
     height: 80px;
     width: 60px;
@@ -195,6 +233,7 @@ footer {
   }
   
   .lifo {
+    text-align: center;
     color: #ffffff;
     margin-right: 20px;
   }

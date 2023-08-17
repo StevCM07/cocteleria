@@ -20,7 +20,7 @@ class cliente(models.Model):
         return self.nombre
 """
 
-"""lo siguiente es para que el email sea unico"""
+#lo siguiente es para que el email sea unico
 
 class CustomUser(AbstractUser):
     email = models.EmailField(unique=True)
@@ -31,7 +31,7 @@ class CustomUser(AbstractUser):
         return self.username
     
 
-""" los modelos de los productos"""
+#los modelos de los productos
 
 class productos(models.Model):
     codigo = models.CharField(max_length=150, primary_key=True)
